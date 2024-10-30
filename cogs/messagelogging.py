@@ -27,7 +27,7 @@ class Logging(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message_delete(self, message):
-        if message.user.bot: return
+        if message.author.bot: return
         try:
             with open('./logchannels', 'rb') as f:
                 logchannel = pickle.load(f)[message.guild.id]
@@ -47,7 +47,7 @@ class Logging(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
-        if before.user.bot: return
+        if before.author.bot: return
         try:
             with open('./logchannels', 'rb') as f:
                 logchannel = pickle.load(f)[before.guild.id]
