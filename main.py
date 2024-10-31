@@ -34,6 +34,11 @@ async def on_guild_join(guild):
     guilds.append(guild.id) # Adding guild to list of guilds
     with open('guildlist', 'wb') as f:
         dump(guilds, f) # Saving guild list to file
+    members = 0
+    for guild in bot.guilds:
+        members += guild.member_count
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {len(members)} people"))
+
 
 @bot.event
 async def on_ready(guilds=guilds):
@@ -41,7 +46,10 @@ async def on_ready(guilds=guilds):
     with open('guildlist', 'wb') as f:
         dump(guilds, f) 
     print(f"Logged in as {bot.user}. Running on {len(guilds)} servers")
-    
+    members = 0
+    for guild in bot.guilds:
+        members += guild.member_count
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {len(members)} people"))
 
 
 
