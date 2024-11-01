@@ -1,0 +1,27 @@
+1. Acceptance of Terms
+
+By using Default Bot, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use Default Bot.
+
+2. Bot Usage
+
+Default Bot is intended for personal, non-commercial use only. You may not use Default Bot for any illegal or unauthorized purpose.
+
+3. Data Privacy
+
+Default Bot may collect and process certain data, such as your Discord user ID and server information, to provide its services. We will handle your data responsibly and in accordance with applicable data protection laws.
+
+4. Limitation of Liability
+
+Default Bot is provided "as is" without warranty of any kind, either express or implied. In no event shall the bot owner be liable for any damages whatsoever arising out of the use or inability to use Default Bot.
+
+5. Modifications to Terms
+
+We reserve the right to modify these Terms of Service at any time. Any changes will be effective immediately upon posting on our website or within the bot itself.   
+
+6. Termination
+
+We may terminate your access to Default Bot at any time, with or without notice, for any reason, including but not limited to violation of these Terms of Service.
+
+7. Contact
+
+If you have any questions or concerns about these Terms of Service, please contact us at our discord server.

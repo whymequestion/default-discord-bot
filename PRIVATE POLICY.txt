@@ -1,0 +1,32 @@
+Privacy Policy for Default Bot
+
+1. Information We Collect
+
+We may collect the following information from you when you use Default Bot:
+
+Discord User ID: This is a unique identifier assigned to you by Discord.
+Server Information: This includes the server ID
+Usage Data: This includes information about how you interact with the bot, such as the commands you use and the channels you use them in.
+2. How We Use Your Information
+
+We use your information to:
+
+Provide and improve our services.
+Respond to your inquiries and support requests.
+Analyze usage patterns to identify potential issues and improve the bot's functionality.
+Comply with legal obligations.
+3. Data Sharing
+
+We do not share your personal information with third parties, except as required by law or to provide essential services.
+
+4. Data Security
+
+We take reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction. However, please note that no security system is perfect, and we cannot guarantee the absolute security of your information.   
+
+5. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting a notice on our website or within the bot itself.   
+
+6. Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us at our discord server.
