@@ -18,6 +18,9 @@ bot = commands.Bot(intents=intents)
 
 
 #remove unnecessary extensions
+
+#bot.load_extension("cogs.example")
+bot.load_extension("cogs.verifying")
 bot.load_extension("cogs.moderation")
 bot.load_extension("cogs.gemini") 
 bot.load_extension("cogs.messagelogging")
