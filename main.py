@@ -1,7 +1,7 @@
 import discord
 from pickle import dump, load
 from discord.ext import commands
-TOKEN = 'Enter your bot token here' 
+TOKEN = 'your token here' # Put your token here
 
 try:
     with open('guildlist','rb') as f:
@@ -16,8 +16,10 @@ intents = discord.Intents.all()
 
 bot = commands.Bot(intents=intents) 
 
-bot.load_extension("cogs.moderation")
 
+#remove unnecessary extensions
+bot.load_extension("cogs.moderation")
+bot.load_extension("cogs.gemini") 
 bot.load_extension("cogs.messagelogging")
 
 
@@ -37,7 +39,7 @@ async def on_guild_join(guild):
     members = 0
     for guild in bot.guilds:
         members += guild.member_count
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {len(members)} people"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {members} people"))
 
 
 @bot.event
@@ -49,7 +51,7 @@ async def on_ready(guilds=guilds):
     members = 0
     for guild in bot.guilds:
         members += guild.member_count
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {len(members)} people"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers and {members} people"))
 
 
 
